@@ -1,0 +1,8 @@
+Q: What is the definition of server port? 
+	A: Server port generally refers to the port in TCP / IP protocol
+Q: What is server port range?
+	A: 0~65535
+Q: How many bits does number above represent?
+	A: 16-bit unsigned integer
+Q: State 10 common server ports
+ 	A: 20,21,22,23,25,53,80,110,119,443
