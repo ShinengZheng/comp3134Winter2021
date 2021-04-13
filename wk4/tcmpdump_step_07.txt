@@ -1,0 +1,33 @@
+root@Comp3134CS:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+09:39:52.743524 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4250412592:4250412636, ack 2397454606, win 501, length 44
+09:39:52.743729 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 44:152, ack 1, win 501, length 108
+09:39:52.743870 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 152:188, ack 1, win 501, length 36
+09:39:52.756783 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 44, win 4136, length 0
+09:39:52.756849 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 188, win 4136, length 0
+09:39:53.012464 IP 134.122.37.253.ssh > 112.78.1.240.53370: Flags [P.], seq 4144650092:4144650160, ack 757500409, win 507, options [nop,nop,TS val 3596362960 ecr 926738416], length 68
+09:39:53.256923 IP 112.78.1.240.53370 > 134.122.37.253.ssh: Flags [P.], seq 1:53, ack 68, win 262, options [nop,nop,TS val 926741431 ecr 3596362960], length 52
+09:39:53.257010 IP 134.122.37.253.ssh > 112.78.1.240.53370: Flags [.], ack 53, win 507, options [nop,nop,TS val 3596363204 ecr 926741431], length 0
+09:39:53.257065 IP 112.78.1.240.53370 > 134.122.37.253.ssh: Flags [F.], seq 53, ack 68, win 262, options [nop,nop,TS val 926741431 ecr 3596362960], length 0
+09:39:53.262191 IP 134.122.37.253.ssh > 112.78.1.240.53370: Flags [F.], seq 68, ack 54, win 507, options [nop,nop,TS val 3596363209 ecr 926741431], length 0
+09:39:53.506256 IP 112.78.1.240.53370 > 134.122.37.253.ssh: Flags [.], ack 69, win 262, options [nop,nop,TS val 926741680 ecr 3596363209], length 0
+09:39:53.592983 IP 134.122.37.253.ssh > 119.29.98.53.47006: Flags [F.], seq 949624786, ack 2370161872, win 507, options [nop,nop,TS val 1250384931 ecr 131505561], length 0
+09:39:53.825653 IP 119.29.98.53.47006 > 134.122.37.253.ssh: Flags [.], ack 1, win 262, options [nop,nop,TS val 131623814 ecr 1250384931], length 0
+09:39:53.825729 IP 134.122.37.253 > 119.29.98.53: ICMP 134.122.37.253 tcp port ssh unreachable, length 60
+09:39:54.704989 IP 149.202.251.238.65511 > 134.122.37.253.http-alt: Flags [S.], seq 141753016, ack 0, win 5840, length 0
+09:39:55.336432 IP 92.63.197.5.54807 > 134.122.37.253.3316: Flags [S], seq 2876349175, win 1024, length 0
+09:39:55.572099 IP 134.122.37.253.ssh > 115.159.201.15.35686: Flags [F.], seq 3680530787, ack 1848267634, win 507, options [nop,nop,TS val 2165162668 ecr 1438784262], length 0
+09:39:55.806349 IP 115.159.201.15.35686 > 134.122.37.253.ssh: Flags [.], ack 1, win 262, options [nop,nop,TS val 1438902514 ecr 2165162668], length 0
+09:39:55.806418 IP 134.122.37.253 > 115.159.201.15: ICMP 134.122.37.253 tcp port ssh unreachable, length 60
+09:39:55.829508 IP 37.9.13.214.20602 > 134.122.37.253.33893: Flags [S], seq 1012774500, win 1024, length 0
+09:39:55.911464 IP 149.202.251.238.65511 > 134.122.37.253.http: Flags [SU], seq 1480202184, win 5840, urg 0, length 0
+09:39:55.911557 IP 134.122.37.253.http > 149.202.251.238.65511: Flags [S.], seq 278743001, ack 1480202185, win 64240, options [mss 1460], length 0
+09:39:55.953834 IP 149.202.251.238.65511 > 134.122.37.253.submissions: Flags [.], ack 0, win 5840, length 0
+09:39:56.078817 IP 136-33-189-193.googlefiber.net.49856 > 134.122.37.253.ssh: Flags [S], seq 4006397925, win 64240, options [mss 1460,sackOK,TS val 2583644079 ecr 0,nop,wscale 7], length 0
+09:39:56.078894 IP 134.122.37.253 > 136-33-189-193.googlefiber.net: ICMP 134.122.37.253 tcp port ssh unreachable, length 68
+09:39:56.378893 IP 149.202.251.238.65511 > 134.122.37.253.3074: Flags [none], win 5840, length 0
+09:39:56.661984 IP 149.202.251.238.65511 > 134.122.37.253.3478: Flags [.], ack 0, win 5840, length 0
+09:39:56.924276 IP 134.122.37.253.http > 149.202.251.238.65511: Flags [S.], seq 278743001, ack 1480202185, win 64240, options [mss 1460], length 0
+09:39:57.278096 IP 149.202.251.238.65511 > 134.122.37.253.http-alt: Flags [S.], seq 1639687833, ack 0, win 5840, length 0
+09:39:57.589986 IP 149.202.251.238.65511 > 134.122.37.253.submissions: Flags [S], seq 1015702158, win 5840, length 0
+root@Comp3134CS:~#

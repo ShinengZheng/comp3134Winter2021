@@ -1,0 +1,6 @@
+E. Local Host to Droplet Route Test
+
+root@Comp3134CS:~# traceroute 134.122.41.122
+
+traceroute to 134.122.41.122 (134.122.41.122), 30 hops max, 60 byte packets
+ 1  134.122.41.122 (134.122.41.122)  0.055 ms  0.021 ms  0.017 ms

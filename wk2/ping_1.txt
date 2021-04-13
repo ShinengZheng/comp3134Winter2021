@@ -1,0 +1,26 @@
+D. Any Host Server Test
+
+root@Comp3134CS:~# ping www.utoronto.ca -w 5
+
+PING d3oxxpqksdxu7j.cloudfront.net (143.204.26.89) 56(84) bytes of data.
+64 bytes from server-143-204-26-89.den50.r.cloudfront.net (143.204.26.89): icmp_seq=1 ttl=246 time=34.5 ms
+64 bytes from server-143-204-26-89.den50.r.cloudfront.net (143.204.26.89): icmp_seq=2 ttl=246 time=33.6 ms
+64 bytes from server-143-204-26-89.den50.r.cloudfront.net (143.204.26.89): icmp_seq=3 ttl=246 time=33.4 ms
+64 bytes from server-143-204-26-89.den50.r.cloudfront.net (143.204.26.89): icmp_seq=4 ttl=246 time=33.4 ms
+64 bytes from server-143-204-26-89.den50.r.cloudfront.net (143.204.26.89): icmp_seq=5 ttl=246 time=33.5 ms
+
+
+
+root@Comp3134CS:~# ping ontariotechu.ca  -w 10
+
+PING ontariotechu.ca (205.211.180.148) 56(84) bytes of data.
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=1 ttl=58 time=3.20 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=2 ttl=58 time=1.94 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=3 ttl=58 time=2.16 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=4 ttl=58 time=2.05 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=5 ttl=58 time=1.98 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=6 ttl=58 time=2.61 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=7 ttl=58 time=2.06 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=8 ttl=58 time=2.00 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=9 ttl=58 time=2.16 ms
+64 bytes from atlas-g0.uoit.net (205.211.180.148): icmp_seq=10 ttl=58 time=2.14 ms

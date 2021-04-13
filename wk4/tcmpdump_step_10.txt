@@ -1,0 +1,107 @@
+root@Comp3134CS:~# tcpdump -i eth0 port 22 -c 100
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+09:43:17.494320 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4258331132:4258331240, ack 2397462118, win 501, length 108
+09:43:17.494477 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 108:144, ack 1, win 501, length 36
+09:43:17.494619 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 144:252, ack 1, win 501, length 108
+09:43:17.494752 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 252:288, ack 1, win 501, length 36
+09:43:17.508072 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 108, win 4137, length 0
+09:43:17.508144 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 252, win 4137, length 0
+09:43:17.534430 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 288:492, ack 1, win 501, length 204
+09:43:17.534570 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 492:528, ack 1, win 501, length 36
+09:43:17.534775 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 528:708, ack 1, win 501, length 180
+09:43:17.534937 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 708:744, ack 1, win 501, length 36
+09:43:17.535089 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 744:924, ack 1, win 501, length 180
+09:43:17.535224 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 924:960, ack 1, win 501, length 36
+09:43:17.535322 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 960:1140, ack 1, win 501, length 180
+09:43:17.535488 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 1140:1176, ack 1, win 501, length 36
+09:43:17.535666 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 1176:1348, ack 1, win 501, length 172
+09:43:17.554084 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 288, win 4137, length 0
+09:43:17.554183 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 1348:3544, ack 1, win 501, length 2196
+09:43:17.554210 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 528, win 4136, length 0
+09:43:17.554223 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 744, win 4135, length 0
+09:43:17.554231 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 960, win 4140, length 0
+09:43:17.554243 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 1176, win 4139, length 0
+09:43:17.554488 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 3544:3716, ack 1, win 501, length 172
+09:43:17.554598 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 3716:3752, ack 1, win 501, length 36
+09:43:17.554717 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 3752:3940, ack 1, win 501, length 188
+09:43:17.554804 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 3940:3976, ack 1, win 501, length 36
+09:43:17.554918 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 3976:4148, ack 1, win 501, length 172
+09:43:17.555003 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4148:4184, ack 1, win 501, length 36
+09:43:17.555106 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4184:4356, ack 1, win 501, length 172
+09:43:17.555187 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4356:4392, ack 1, win 501, length 36
+09:43:17.555288 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4392:4564, ack 1, win 501, length 172
+09:43:17.555419 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4564:4600, ack 1, win 501, length 36
+09:43:17.555473 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4600:4772, ack 1, win 501, length 172
+09:43:17.555552 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4772:4808, ack 1, win 501, length 36
+09:43:17.555640 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4808:4996, ack 1, win 501, length 188
+09:43:17.555708 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4996:5032, ack 1, win 501, length 36
+09:43:17.555813 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 5032:5212, ack 1, win 501, length 180
+09:43:17.555893 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 5212:5248, ack 1, win 501, length 36
+09:43:17.572867 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 2808, win 4140, length 0
+09:43:17.572969 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 5248:8168, ack 1, win 501, length 2920
+09:43:17.572996 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 3716, win 4136, length 0
+09:43:17.573010 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 3940, win 4136, length 0
+09:43:17.573108 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8168:8328, ack 1, win 501, length 160
+09:43:17.573357 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8328:8500, ack 1, win 501, length 172
+09:43:17.573482 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8500:8536, ack 1, win 501, length 36
+09:43:17.573607 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8536:8724, ack 1, win 501, length 188
+09:43:17.573695 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8724:8760, ack 1, win 501, length 36
+09:43:17.573880 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8760:8932, ack 1, win 501, length 172
+09:43:17.573988 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8932:8968, ack 1, win 501, length 36
+09:43:17.574101 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 8968:9140, ack 1, win 501, length 172
+09:43:17.574187 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 9140:9176, ack 1, win 501, length 36
+09:43:17.574299 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 9176:9364, ack 1, win 501, length 188
+09:43:17.576616 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 4148, win 4135, length 0
+09:43:17.576717 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 9364:11384, ack 1, win 501, length 2020
+09:43:17.576743 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 4356, win 4140, length 0
+09:43:17.576760 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 4564, win 4139, length 0
+09:43:17.576772 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 4772, win 4138, length 0
+09:43:17.576794 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 4996, win 4137, length 0
+09:43:17.576803 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 5212, win 4137, length 0
+09:43:17.576966 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 11384:11556, ack 1, win 501, length 172
+09:43:17.577175 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 11556:11744, ack 1, win 501, length 188
+09:43:17.577455 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 11744:12756, ack 1, win 501, length 1012
+09:43:17.577618 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 12756:12944, ack 1, win 501, length 188
+09:43:17.577773 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 12944:13132, ack 1, win 501, length 188
+09:43:17.577920 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 13132:13320, ack 1, win 501, length 188
+09:43:17.578080 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 13320:13508, ack 1, win 501, length 188
+09:43:17.578244 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 13508:13696, ack 1, win 501, length 188
+09:43:17.578404 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 13696:13884, ack 1, win 501, length 188
+09:43:17.578534 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 13884:14072, ack 1, win 501, length 188
+09:43:17.578678 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 14072:14260, ack 1, win 501, length 188
+09:43:17.578832 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 14260:14448, ack 1, win 501, length 188
+09:43:17.578981 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 14448:14636, ack 1, win 501, length 188
+09:43:17.579122 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 14636:14824, ack 1, win 501, length 188
+09:43:17.579266 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 14824:15012, ack 1, win 501, length 188
+09:43:17.579414 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 15012:15200, ack 1, win 501, length 188
+09:43:17.579588 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 15200:15388, ack 1, win 501, length 188
+09:43:17.579839 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 15388:15576, ack 1, win 501, length 188
+09:43:17.580040 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 15576:15764, ack 1, win 501, length 188
+09:43:17.580225 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 15764:15952, ack 1, win 501, length 188
+09:43:17.580352 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 15952:16140, ack 1, win 501, length 188
+09:43:17.580479 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 16140:16328, ack 1, win 501, length 188
+09:43:17.584552 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 8168, win 4140, length 0
+09:43:17.584644 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 16328:16516, ack 1, win 501, length 188
+09:43:17.584693 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 8328, win 4139, length 0
+09:43:17.584725 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 8536, win 4139, length 0
+09:43:17.584735 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 8760, win 4138, length 0
+09:43:17.584743 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 8968, win 4137, length 0
+09:43:17.584751 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 9176, win 4136, length 0
+09:43:17.585147 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 16516:17512, ack 1, win 501, length 996
+09:43:17.585308 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 17512:17700, ack 1, win 501, length 188
+09:43:17.585445 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 17700:17888, ack 1, win 501, length 188
+09:43:17.585568 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 17888:18076, ack 1, win 501, length 188
+09:43:17.585695 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 18076:18264, ack 1, win 501, length 188
+09:43:17.585848 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 18264:18452, ack 1, win 501, length 188
+09:43:17.586047 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 18452:18640, ack 1, win 501, length 188
+09:43:17.586279 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 18640:18828, ack 1, win 501, length 188
+09:43:17.586439 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 18828:19016, ack 1, win 501, length 188
+09:43:17.586571 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 19016:19204, ack 1, win 501, length 188
+09:43:17.586697 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 19204:19392, ack 1, win 501, length 188
+09:43:17.586817 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 19392:19580, ack 1, win 501, length 188
+09:43:17.587012 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 19580:19768, ack 1, win 501, length 188
+100 packets captured
+100 packets received by filter
+0 packets dropped by kernel
+root@Comp3134CS:~#

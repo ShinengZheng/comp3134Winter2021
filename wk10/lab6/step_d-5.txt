@@ -1,0 +1,2 @@
+It represent level 1 of the web root ../
+it shows the folder tree of the web root then the hacker can know which folder contains the information he needs to find.

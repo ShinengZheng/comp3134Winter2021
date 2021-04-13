@@ -1,0 +1,2 @@
+The issue is it cannot find the directory named hello in the web root of the droplet.
+The sensitive information it is giving is the structure of the directory in the web root and the name of the file we are using, as long as stating there is no directory with that name in our web root folder and the error code number.

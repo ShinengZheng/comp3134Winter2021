@@ -1,0 +1,59 @@
+E. Any Host Server Route Test
+
+root@Comp3134CS:~# traceroute www.utoronto.ca
+
+traceroute to www.utoronto.ca (13.225.25.58), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.6.95 (10.78.6.95)  1.303 ms 10.78.6.91 (10.78.6.91)  1.474 ms 10.78.6.97 (10.78.6.97)  1.094 ms
+ 3  138.197.249.86 (138.197.249.86)  1.305 ms  1.275 ms  1.303 ms
+ 4  toro-b1-link.telia.net (62.115.55.29)  1.454 ms  1.411 ms toro-b1-link.telia.net (62.115.9.209)  1.232 ms
+ 5  toro-b3-link.ip.twelve99.net (62.115.116.180)  1.405 ms  1.367 ms  1.162 ms
+ 6  * * *
+ 7  ldn-bb1-link.ip.twelve99.net (62.115.113.21)  91.842 ms ash-bb2-link.ip.twelve99.net (62.115.136.201)  117.288 ms ldn-bb1-link.ip.twelve99.net (62.115.113.21)  91.791 ms
+ 8  prs-bb3-link.ip.twelve99.net (62.115.112.243)  104.531 ms prs-bb3-link.ip.twelve99.net (62.115.134.92)  92.035 ms prs-bb3-link.ip.twelve99.net (62.115.123.69)  91.871 ms
+ 9  prs-b7-link.ip.twelve99.net (62.115.113.183)  91.472 ms  91.802 ms  91.426 ms
+10  amazon-ic-320298-prs-b7.c.telia.net (213.248.79.225)  92.467 ms  92.234 ms amazon-ic-320302-prs-b7.c.telia.net (213.248.79.227)  104.634 ms
+11  * * *
+12  * amazon-ic-320298-prs-b7.c.telia.net (213.248.79.225)  103.849 ms *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  server-13-225-25-58.cdg3.r.cloudfront.net (13.225.25.58)  92.538 ms *  92.239 ms
+
+// test using IP address:
+
+root@Comp3134CS:~# traceroute 128.100.166.120
+
+traceroute to 128.100.166.120 (128.100.166.120), 30 hops max, 60 byte packets
+ 1  * * *
+ 2  10.78.6.93 (10.78.6.93)  1.548 ms 10.78.6.91 (10.78.6.91)  1.240 ms 10.78.4.6 (10.78.4.6)  5.132 ms
+ 3  138.197.249.90 (138.197.249.90)  1.360 ms 138.197.249.82 (138.197.249.82)  1.227 ms  1.185 ms
+ 4  gtanet.ip4.torontointernetxchange.net (206.108.34.207)  2.082 ms  2.071 ms 138.197.249.71 (138.197.249.71)  1.387 ms
+ 5  utoronto2-ut-hub-if-internet.gtanet.ca (205.211.94.134)  2.068 ms gtanet.ip4.torontointernetxchange.net (206.108.34.207)  1.989 ms utoronto2-ut-hub-if-internet.gtanet.ca (205.211.94.134)  2.015 ms
+ 6  utoronto2-ut-hub-if-internet.gtanet.ca (205.211.94.134)  1.992 ms * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

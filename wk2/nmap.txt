@@ -1,0 +1,60 @@
+F. NMAP
+scan 1000 TCP:
+root@Comp3134CS:~# nmap www.utoronto.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 00:48 UTC
+Nmap scan report for www.utoronto.ca (13.249.182.118)
+Host is up (0.019s latency).
+Other addresses for www.utoronto.ca (not scanned): 13.249.182.103 13.249.182.101 13.249.182.108 2600:9000:20ee:3000:1b:b6fd:bc0:93a1 2600:9000:20ee:ec00:1b:b6fd:bc0:93a1 2600:9000:20ee:3800:1b:b6fd:bc0:93a1 2600:9000:20ee:5600:1b:b6fd:bc0:93a1 2600:9000:20ee:1000:1b:b6fd:bc0:93a1 2600:9000:20ee:3600:1b:b6fd:bc0:93a1 2600:9000:20ee:5e00:1b:b6fd:bc0:93a1 2600:9000:20ee:9c00:1b:b6fd:bc0:93a1
+rDNS record for 13.249.182.118: server-13-249-182-118.bos50.r.cloudfront.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.71 seconds
+
+single Port:
+root@Comp3134CS:~# nmap -p 80 www.utoronto.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 00:50 UTC
+Nmap scan report for www.utoronto.ca (13.249.182.118)
+Host is up (0.019s latency).
+Other addresses for www.utoronto.ca (not scanned): 13.249.182.103 13.249.182.101 13.249.182.108 2600:9000:20ee:a600:1b:b6fd:bc0:93a1 2600:9000:20ee:b200:1b:b6fd:bc0:93a1 2600:9000:20ee:fe00:1b:b6fd:bc0:93a1 2600:9000:20ee:c600:1b:b6fd:bc0:93a1 2600:9000:20ee:7800:1b:b6fd:bc0:93a1 2600:9000:20ee:5e00:1b:b6fd:bc0:93a1 2600:9000:20ee:7a00:1b:b6fd:bc0:93a1 2600:9000:20ee:b800:1b:b6fd:bc0:93a1
+rDNS record for 13.249.182.118: server-13-249-182-118.bos50.r.cloudfront.net
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 11.19 seconds
+
+range of ports:
+root@Comp3134CS:~# nmap -P 80-443 www.utoronto.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 00:50 UTC
+Nmap scan report for www.utoronto.ca (13.249.182.118)
+Host is up (0.018s latency).
+Other addresses for www.utoronto.ca (not scanned): 13.249.182.101 13.249.182.108 13.249.182.103 2600:9000:20ee:a600:1b:b6fd:bc0:93a1 2600:9000:20ee:c600:1b:b6fd:bc0:93a1 2600:9000:20ee:3c00:1b:b6fd:bc0:93a1 2600:9000:20ee:7000:1b:b6fd:bc0:93a1 2600:9000:20ee:6200:1b:b6fd:bc0:93a1 2600:9000:20ee:9800:1b:b6fd:bc0:93a1 2600:9000:20ee:3e00:1b:b6fd:bc0:93a1 2600:9000:20ee:4800:1b:b6fd:bc0:93a1
+rDNS record for 13.249.182.118: server-13-249-182-118.bos50.r.cloudfront.net
+Not shown: 362 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 13.89 seconds
+
+100 most common ports:
+root@Comp3134CS:~# nmap -F www.utoronto.ca
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-01-22 00:51 UTC
+Nmap scan report for www.utoronto.ca (13.249.182.118)
+Host is up (0.018s latency).
+Other addresses for www.utoronto.ca (not scanned): 13.249.182.101 13.249.182.108 13.249.182.103 2600:9000:20ee:a00:1b:b6fd:bc0:93a1 2600:9000:20ee:a800:1b:b6fd:bc0:93a1 2600:9000:20ee:2000:1b:b6fd:bc0:93a1 2600:9000:20ee:8800:1b:b6fd:bc0:93a1 2600:9000:20ee:4000:1b:b6fd:bc0:93a1 2600:9000:20ee:1a00:1b:b6fd:bc0:93a1 2600:9000:20ee:9200:1b:b6fd:bc0:93a1 2600:9000:20ee:0:1b:b6fd:bc0:93a1
+rDNS record for 13.249.182.118: server-13-249-182-118.bos50.r.cloudfront.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.88 seconds
+root@Comp3134CS:~#

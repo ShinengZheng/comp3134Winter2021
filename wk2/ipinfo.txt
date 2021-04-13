@@ -1,0 +1,29 @@
+C. Identifying Server:
+
+Domain Name Look-Up:
+
+01- https://www.utoronto.ca/
+
+IP Address: 128.100.166.120
+Geolocation: CA (Canada), ON, Ontario, M5S Toronto
+
+02- https://www.yorku.ca/
+
+IP Address: 130.63.236.137
+Geolocation: CA (Canada), ON, Ontario, M3J Toronto
+
+03- https://www.mcmaster.ca/
+
+IP Address: 130.113.64.30
+Geolocation: CA (Canada), ON, Ontario, L8S Hamilton
+
+04- https://uwaterloo.ca/
+
+IP Address: 129.97.208.23
+Geolocation: CA (Canada), ON, Ontario, N2L Waterloo
+
+05- https://ontariotechu.ca/
+
+IP Address: 205.211.180.149
+Geolocation: CA (Canada), ON, Ontario, L1H Oshawa
+

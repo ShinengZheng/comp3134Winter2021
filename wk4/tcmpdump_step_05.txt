@@ -1,0 +1,52 @@
+root@Comp3134CS:~# tcpdump -XX -i eth0 -c 5
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+09:37:44.345355 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4250399072:4250399180, ack 2397452170, win 501, length 108
+        0x0000:  fe00 0000 0101 7a4f a1cf e98a 0800 4510  ......zO......E.
+        0x0010:  0094 c00f 4000 4006 0d5c 867a 25fd 488d  ....@.@..\.z%.H.
+        0x0020:  77e4 0016 ef56 fd57 f160 8ee6 378a 5018  w....V.W.`..7.P.
+        0x0030:  01f5 6d6f 0000 4212 31f5 fa9b f032 6df1  ..mo..B.1....2m.
+        0x0040:  1fdf da94 13a7 1b36 925e ee14 5619 b735  .......6.^..V..5
+        0x0050:  e80e ad31 2da3 2dc3 d4aa c5d3 0194 f213  ...1-.-.........
+        0x0060:  da6c fb34 f8f7 f575 5d00 ba08 fba2 d361  .l.4...u]......a
+        0x0070:  434d 38ca d026 c04b 3442 9b54 285d ab07  CM8..&.K4B.T(]..
+        0x0080:  7309 383b 8280 98eb cc51 1176 aca7 97a3  s.8;.....Q.v....
+        0x0090:  1689 70b0 370f 09fa 8bf9 0331 fc9e 11d4  ..p.7......1....
+        0x00a0:  ac6c                                     .l
+09:37:44.345497 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 7a4f a1cf e98a 0800 4510  ......zO......E.
+        0x0010:  004c c010 4000 4006 0da3 867a 25fd 488d  .L..@.@....z%.H.
+        0x0020:  77e4 0016 ef56 fd57 f1cc 8ee6 378a 5018  w....V.W....7.P.
+        0x0030:  01f5 6d27 0000 e794 7e2d a038 806b 38f0  ..m'....~-.8.k8.
+        0x0040:  9804 a3c2 ec54 d5b9 3954 e073 a6d7 3b20  .....T..9T.s..;.
+        0x0050:  f14f 5817 569d 393b a569                 .OX.V.9;.i
+09:37:44.345588 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 144:252, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 7a4f a1cf e98a 0800 4510  ......zO......E.
+        0x0010:  0094 c011 4000 4006 0d5a 867a 25fd 488d  ....@.@..Z.z%.H.
+        0x0020:  77e4 0016 ef56 fd57 f1f0 8ee6 378a 5018  w....V.W....7.P.
+        0x0030:  01f5 6d6f 0000 47dc 0f56 74dc 8d78 6bfb  ..mo..G..Vt..xk.
+        0x0040:  cae6 446a cdea 0a3d de03 c432 11aa d170  ..Dj...=...2...p
+        0x0050:  c9ab 80a2 b98e 7564 0f3a fcc9 8122 e0bd  ......ud.:..."..
+        0x0060:  74d0 487e fab3 9841 48b5 8c5f 9769 da50  t.H~...AH.._.i.P
+        0x0070:  1ef5 658c 74e0 a6e6 c540 af2a c425 755e  ..e.t....@.*.%u^
+        0x0080:  7be4 235d 3850 7e9b bccd fc1f 30f9 d4a4  {.#]8P~.....0...
+        0x0090:  e477 87d2 3b16 5626 67e8 a524 cd24 0d8a  .w..;.V&g..$.$..
+        0x00a0:  d5cc                                     ..
+09:37:44.345675 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 252:288, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 7a4f a1cf e98a 0800 4510  ......zO......E.
+        0x0010:  004c c012 4000 4006 0da1 867a 25fd 488d  .L..@.@....z%.H.
+        0x0020:  77e4 0016 ef56 fd57 f25c 8ee6 378a 5018  w....V.W.\..7.P.
+        0x0030:  01f5 6d27 0000 7be5 9eae 93e2 7bc2 05c0  ..m'..{.....{...
+        0x0040:  2d00 3d10 c1f2 ca3e f91c 459e b7bd 6a17  -.=....>..E...j.
+        0x0050:  33e1 b75d 8c0f 24fe a854                 3..]..$..T
+09:37:44.346397 IP 134.122.37.253.55132 > dns.google.domain: 29234+ PTR? 228.119.141.72.in-addr.arpa. (45)
+        0x0000:  fe00 0000 0101 7a4f a1cf e98a 0800 4500  ......zO......E.
+        0x0010:  0049 5427 4000 4011 29f6 867a 25fd 0808  .IT'@.@.)..z%...
+        0x0020:  0808 d75c 0035 0035 bccd 7232 0100 0001  ...\.5.5..r2....
+        0x0030:  0000 0000 0000 0332 3238 0331 3139 0331  .......228.119.1
+        0x0040:  3431 0237 3207 696e 2d61 6464 7204 6172  41.72.in-addr.ar
+        0x0050:  7061 0000 0c00 01                        pa.....
+5 packets captured
+21 packets received by filter
+0 packets dropped by kernel
+root@Comp3134CS:~#

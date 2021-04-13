@@ -1,0 +1,2 @@
+It is going into 2 level deep of the web tree root.
+It is giving the user the structure of the web server by displaying a loop. If we put backups after the slash, we could see all of the root files of the web server. It is dangerous because it contains many sensitive information inside that the hacker can find a flaw and attack to it.

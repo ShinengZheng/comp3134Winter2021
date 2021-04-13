@@ -1,0 +1,12 @@
+root@Comp3134CS:~# tcpdump -i eth0 src 162.219.54.2 -c 5
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+09:46:00.561910 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 4258354952, win 4136, length 0
+09:46:00.605952 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 145, win 4135, length 0
+09:46:00.803966 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 361, win 4135, length 0
+09:46:00.804059 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 569, win 4140, length 0
+09:46:00.810022 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 605, win 4140, options [nop,nop,sack 1 {569:605}], length 0
+5 packets captured
+6 packets received by filter
+0 packets dropped by kernel
+root@Comp3134CS:~#

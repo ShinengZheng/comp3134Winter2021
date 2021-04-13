@@ -1,0 +1,37 @@
+root@Comp3134CS:~# tcpdump -i eth0 -c 30
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+09:32:37.331864 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4220447348:4220447456, ack 2397431778, win 501, length 108
+09:32:37.332096 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 108:144, ack 1, win 501, length 36
+09:32:37.332414 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 144:252, ack 1, win 501, length 108
+09:32:37.332614 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 252:288, ack 1, win 501, length 36
+09:32:37.332641 IP 149.202.251.238.65511 > 134.122.37.253.3074: Flags [S.], seq 2107997753, ack 0, win 5840, length 0
+09:32:37.333522 IP 134.122.37.253.52744 > dns.google.domain: 63566+ PTR? 228.119.141.72.in-addr.arpa. (45)
+09:32:37.343895 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 108, win 508, length 0
+09:32:37.347857 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 252, win 508, length 0
+09:32:37.354545 IP dns.google.domain > 134.122.37.253.52744: 63566 1/0/0 PTR cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca. (105)
+09:32:37.354981 IP 134.122.37.253.43162 > dns.google.domain: 54820+ PTR? 253.37.122.134.in-addr.arpa. (45)
+09:32:37.375299 IP dns.google.domain > 134.122.37.253.43162: 54820 NXDomain 0/1/0 (112)
+09:32:37.375677 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 288:492, ack 1, win 501, length 204
+09:32:37.375800 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 492:528, ack 1, win 501, length 36
+09:32:37.375947 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 528:708, ack 1, win 501, length 180
+09:32:37.376044 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 708:744, ack 1, win 501, length 36
+09:32:37.376190 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 744:924, ack 1, win 501, length 180
+09:32:37.376304 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 924:960, ack 1, win 501, length 36
+09:32:37.376439 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 960:1140, ack 1, win 501, length 180
+09:32:37.376516 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 1140:1176, ack 1, win 501, length 36
+09:32:37.376770 IP 134.122.37.253.40752 > dns.google.domain: 4068+ PTR? 238.251.202.149.in-addr.arpa. (46)
+09:32:37.377650 IP dns.google.domain > 134.122.37.253.40752: 4068 NXDomain 0/1/0 (101)
+09:32:37.377843 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 1176:1332, ack 1, win 501, length 156
+09:32:37.378092 IP 134.122.37.253.33240 > dns.google.domain: 10830+ PTR? 8.8.8.8.in-addr.arpa. (38)
+09:32:37.378676 IP dns.google.domain > 134.122.37.253.33240: 10830 1/0/0 PTR dns.google. (62)
+09:32:37.390097 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 288, win 507, length 0
+09:32:37.390174 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 1332:4252, ack 1, win 501, length 2920
+09:32:37.394076 IP cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270 > 134.122.37.253.ssh: Flags [.], ack 528, win 513, length 0
+09:32:37.394159 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4252:5560, ack 1, win 501, length 1308
+09:32:37.394402 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 5560:5732, ack 1, win 501, length 172
+09:32:37.394551 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 5732:5768, ack 1, win 501, length 36
+30 packets captured
+31 packets received by filter
+0 packets dropped by kernel
+root@Comp3134CS:~#

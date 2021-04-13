@@ -1,0 +1,12 @@
+root@Comp3134CS:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+09:34:09.546503 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 4220456104:4220456212, ack 2397433446, win 501, length 108
+09:34:09.546626 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 108:144, ack 1, win 501, length 36
+09:34:09.546732 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 144:252, ack 1, win 501, length 108
+09:34:09.546857 IP 134.122.37.253.ssh > cpef81d0f81b843-cmf81d0f81b840.cpe.net.fido.ca.61270: Flags [P.], seq 252:288, ack 1, win 501, length 36
+09:34:09.547553 IP 134.122.37.253.56948 > dns.google.domain: 16911+ PTR? 228.119.141.72.in-addr.arpa. (45)
+5 packets captured
+21 packets received by filter
+0 packets dropped by kernel
+root@Comp3134CS:~#

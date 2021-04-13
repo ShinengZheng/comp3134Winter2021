@@ -1,0 +1,90 @@
+C. Identifying Server:
+
+IP Address Look-Up:
+
+01- https://www.georgebrown.ca/
+
+PING georgebrown.ca (99.79.139.11) 56(84) bytes of data.
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=1 ttl=48 time=9.24 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=2 ttl=48 time=8.42 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=3 ttl=48 time=8.37 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=4 ttl=48 time=8.63 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=5 ttl=48 time=8.36 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=6 ttl=48 time=8.39 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=7 ttl=48 time=8.37 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=8 ttl=48 time=8.41 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=9 ttl=48 time=8.42 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=10 ttl=48 time=8.35 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=11 ttl=48 time=8.51 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=12 ttl=48 time=8.50 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=13 ttl=48 time=8.57 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=14 ttl=48 time=8.49 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=15 ttl=48 time=8.44 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=16 ttl=48 time=8.52 ms
+64 bytes from ec2-99-79-139-11.ca-central-1.compute.amazonaws.com (99.79.139.11): icmp_seq=17 ttl=48 time=8.54 ms
+
+02- https://www.youtube.com/
+
+PING youtube-ui.l.google.com (172.217.1.174) 56(84) bytes of data.
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=1 ttl=121 time=1.54 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=2 ttl=121 time=0.668 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=3 ttl=121 time=0.622 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=4 ttl=121 time=0.770 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=5 ttl=121 time=0.667 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=6 ttl=121 time=0.656 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=7 ttl=121 time=0.656 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=8 ttl=121 time=0.698 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=9 ttl=121 time=0.579 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=10 ttl=121 time=0.638 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=11 ttl=121 time=0.607 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=12 ttl=121 time=0.680 ms
+64 bytes from yyz10s04-in-f14.1e100.net (172.217.1.174): icmp_seq=13 ttl=121 time=0.589 ms
+
+03- https://ca.yahoo.com/
+
+PING new-fp-shed.wg1.b.yahoo.com (74.6.143.25) 56(84) bytes of data.
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=1 ttl=56 time=3.98 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=2 ttl=56 time=3.29 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=3 ttl=56 time=3.74 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=4 ttl=56 time=3.34 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=5 ttl=56 time=3.29 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=6 ttl=56 time=3.38 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=7 ttl=56 time=3.36 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=8 ttl=56 time=3.29 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=9 ttl=56 time=3.34 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=10 ttl=56 time=3.26 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=11 ttl=56 time=3.35 ms
+64 bytes from media-router-fp73.prod.media.vip.bf1.yahoo.com (74.6.143.25): icmp_seq=12 ttl=56 time=3.44 ms
+
+04- https://www.fido.ca/
+
+PING e11500.g.akamaiedge.net (23.192.52.114) 56(84) bytes of data.
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=1 ttl=58 time=11.7 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=2 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=3 ttl=58 time=10.9 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=4 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=5 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=6 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=7 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=8 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=9 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=10 ttl=58 time=10.7 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=11 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=12 ttl=58 time=10.8 ms
+64 bytes from a23-192-52-114.deploy.static.akamaitechnologies.com (23.192.52.114): icmp_seq=13 ttl=58 time=10.8 ms
+
+05- https://www.ryerson.ca/
+
+PING www.ryerson.ca (141.117.126.20) 56(84) bytes of data.
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=1 ttl=250 time=1.54 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=2 ttl=250 time=0.804 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=3 ttl=250 time=0.900 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=4 ttl=250 time=0.789 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=5 ttl=250 time=0.832 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=6 ttl=250 time=0.905 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=7 ttl=250 time=0.890 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=8 ttl=250 time=0.674 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=9 ttl=250 time=0.901 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=10 ttl=250 time=0.876 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=11 ttl=250 time=0.935 ms
+64 bytes from www.ryerson.ca (141.117.126.20): icmp_seq=12 ttl=250 time=0.783 ms

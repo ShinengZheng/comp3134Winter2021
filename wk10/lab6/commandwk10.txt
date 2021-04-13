@@ -1,0 +1,6 @@
+Part D:
+cd /var/www/html
+touch test.php
+nano test.php
+copy paste php content to the file then ctrl + S to save, ctrl + X to exit
+
