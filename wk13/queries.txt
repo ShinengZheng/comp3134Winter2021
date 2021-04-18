@@ -18,9 +18,9 @@ VALUES
     (1, 'shineng', 'shineng@gmail.com', 'Shineng', 'Zheng', 1),
     (2, 'john', 'john@gmail.com', 'John', 'Doe', 0),
     (3, 'tony', 'tony@gmail.com', 'Tony', 'Yang', 0),
-(4, 'munira', 'munira@gmail.com', 'Munira', 'Wang', 1),
-(5, 'xueyi', 'xueyi@gmail.com', 'Xueyi', 'Wang', 1),
-(6, 'Ben', 'Ben@gmail.com', 'Ben', 'Blanc', 1);
+    (4, 'munira', 'munira@gmail.com', 'Munira', 'Wang', 1),
+    (5, 'xueyi', 'xueyi@gmail.com', 'Xueyi', 'Wang', 1),
+    (6, 'Ben', 'Ben@gmail.com', 'Ben', 'Blanc', 1);
 
 Export database schema
 
