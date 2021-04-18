@@ -1,0 +1,3 @@
+4. sudo nano /etc/ssh/sshd_config
+6. sudo service ssh restart
+7. ssh -p2222 root@134.122.41.122
